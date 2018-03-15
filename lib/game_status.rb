@@ -41,15 +41,15 @@ def over?(board)
 end
 
 def winner(board)
-
   array = won?(board)
   if array == nil
     return nil
   elsif board[array[0]] == "X"
     return "X"
-  else board[array[0]] == "O"
-    return "O"
-
+  else
+    "O"
+  end
+end
 
 
 #   if won?(board) board[array[0]] == "X"
