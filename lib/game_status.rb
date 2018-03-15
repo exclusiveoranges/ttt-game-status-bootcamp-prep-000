@@ -40,6 +40,7 @@ def over?(board)
 end
 
 def winner(board)
+  binding.pry 
   array = won?(board)
   if board[array[0]] == "X"
     return "X"
