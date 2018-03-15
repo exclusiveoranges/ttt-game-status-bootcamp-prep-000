@@ -18,7 +18,7 @@ def won?(board)
     WIN_COMBINATIONS.detect do |array|
        board[array[0]] == board[array[1]] && board[array[2]] == "X" && board[array[0]] == board[array[2]] ||
        board[array[0]] == board[array[1]] && board[array[2]] == "O" && board[array[0]] == board[array[2]]
-
+      
     end
 end
 
