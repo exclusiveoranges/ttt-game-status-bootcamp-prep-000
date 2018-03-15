@@ -46,13 +46,15 @@ def winner(board)
   elsif array[0] == "O"
     return "O"
   else
-    return nil 
-
-
-  if won?(board) board[array[0]] == "X"
-    return"X"
-  elsif won?(board) board[array[0]] == "O"
-    return"O"
-  else return nil
+    return nil
   end
 end
+
+
+#   if won?(board) board[array[0]] == "X"
+#     return"X"
+#   elsif won?(board) board[array[0]] == "O"
+#     return"O"
+#   else return nil
+#   end
+# end
